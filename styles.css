@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+	background: #e7e7e9;
+}
+
+.wrapper{
+	width: 100%;
+}
+
+.mega_menu{
+	width: 100%;
+	height: 60px;
+}
+
+.mega_menu ul{
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	text-align: center;
+	line-height: 59px;
+	position: relative;
+}
+
+.mega_menu ul li{
+	display: inline-block;
+	margin: 0 15px;
+	padding: 0 15px;
+}
+
+.mega_menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 5px;
+	font-size: 12px;
+	display: block;
+}
+
+.wrapper .banner_img img{
+	width: 100%;
+	height: 500px;
+}
+
+.mega_menu ul li .sub_menu{
+	position: absolute;
+	background: #2c2c2c;
+	width: 100%;
+	left: 0;
+	top: 60px;
+	padding: 25px 15px;
+	display: flex;
+	justify-content: space-around;
+	visibility: hidden;
+	line-height: 24px;
+}
+
+
+.mega_menu ul li:hover{
+	background: #2c2c2c;
+}
+
+.mega_menu ul li:hover a{
+	color: #ca914e;
+}
+
+.mega_menu ul li:hover .sub_menu{
+	visibility: visible;
+}
+
+.mega_menu ul li .sub_menu .col img{
+	width: 250px;
+	height: 180px;
+	display: block;
+}
+
+.mega_menu ul li .sub_menu p{
+	color: #fff;
+	margin-top: 15px;
+	font-size: 14px;
+}
+
+.mega_menu ul li .sub_menu h4{
+	color: #ca914e;
+}
